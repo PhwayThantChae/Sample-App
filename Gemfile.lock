@@ -50,6 +50,7 @@ GEM
     autoprefixer-rails (9.1.4)
       execjs
     bcrypt (3.1.12)
+    bcrypt (3.1.12-x64-mingw32)
     bindex (0.5.0)
     bootsnap (1.3.1)
       msgpack (~> 1.0)
@@ -86,6 +87,7 @@ GEM
     faker (1.9.1)
       i18n (>= 0.7)
     ffi (1.9.25)
+    ffi (1.9.25-x64-mingw32)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
     i18n (1.1.0)
@@ -115,11 +117,15 @@ GEM
     mini_portile2 (2.3.0)
     minitest (5.11.3)
     msgpack (1.2.4)
+    msgpack (1.2.4-x64-mingw32)
     multi_json (1.13.1)
     nio4r (2.3.1)
     nokogiri (1.8.4)
       mini_portile2 (~> 2.3.0)
+    nokogiri (1.8.4-x64-mingw32)
+      mini_portile2 (~> 2.3.0)
     pg (1.1.2)
+    pg (1.1.2-x64-mingw32)
     public_suffix (3.0.3)
     puma (3.12.0)
     rack (2.0.5)
@@ -189,6 +195,8 @@ GEM
     turbolinks-source (5.2.0)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
+    tzinfo-data (1.2018.5)
+      tzinfo (>= 1.0.0)
     uglifier (4.1.18)
       execjs (>= 0.3.0, < 3)
     web-console (3.7.0)
@@ -205,6 +213,7 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   bcrypt
@@ -236,4 +245,4 @@ RUBY VERSION
    ruby 2.5.1p57
 
 BUNDLED WITH
-   1.16.1
+   1.16.3
